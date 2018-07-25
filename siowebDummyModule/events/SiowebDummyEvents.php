@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Du kannst hier nachsehen, wie Oxid die Datenbank aufbaut:
+ * https://github.com/OXID-eSales/oxideshop_ce/blob/master/source/Setup/Sql/database_schema.sql
+ * Achte bitte darauf, dass selbe Muster/Schema zu verwenden
+ */
 class SiowebDummyEvents
 {
     /**
