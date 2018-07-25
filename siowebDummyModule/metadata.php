@@ -66,6 +66,9 @@ $aModule = array(
         
         // Smarty Template
         'sioweb_dummy_smarty_block.tpl' => $ModuleID.'/application/views/smarty/sioweb_dummy_smarty_block.tpl'
+        
+        // Controller
+        'sioweb_dummy_controller.tpl' => $ModuleID.'/application/views/sioweb_dummy_controller.tpl'
     ),
     // Events sind vor allem geeignet, um die
     // Datenbank zu manipulieren, oder den Cache zu leeren
