@@ -35,6 +35,10 @@ $aModule = array(
     // - Smarty-Erweiterungen
     // - Models
     'files'      => array(
+        // Backend-Klassen
+        'AdminSiowebDummy' => $ModuleID.'/application/controllers/admin/AdminSiowebDummy.php',
+        'AdminSiowebDummyList' => $ModuleID.'/application/controllers/admin/AdminSiowebDummyList.php',
+        'AdminSiowebDummyMain' => $ModuleID.'/application/controllers/admin/AdminSiowebDummyMain.php',
         // Model
         'SiowebDummy' => $ModuleID.'/application/models/SiowebDummy.php',
         // Event-Handler
@@ -43,6 +47,8 @@ $aModule = array(
     // Bietet dein Modul Templates?
     // Überschreibt dein Modul Templates?
     'templates' => array(
+        // Um einen Backend-Menüpunkt hinzuzufügen, brauchst du 
+        // die menu.xml im Root des Modules
         'sioweb_dummy.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy.tpl',
         'sioweb_dumm_listy.tpl' => $ModuleID.'/application/views/admin/sioweb_dumm_listy.tpl',
         'sioweb_dummy_main.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy_main.tpl',
