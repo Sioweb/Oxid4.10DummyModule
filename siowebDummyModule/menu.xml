@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxcustnews">
+            <SUBMENU id="sioweb_dummy" cl="sioweb_dummy" list="sioweb_dummy_list">
+                <TAB id="tbclsioweb_dummy_main" cl="sioweb_dummy_main" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
