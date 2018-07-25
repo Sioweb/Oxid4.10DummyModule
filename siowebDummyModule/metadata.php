@@ -1,10 +1,14 @@
 <?php
 
 // Pfad im Verzeichnis
+// - sioweb durch deinen Firmennamen ersetzen
+// - siowebDummyModule durch deinen Modulnamen ersetzen
+// Achte darauf die Ordnerstruktur anzupassen
 $ModuleID = 'sioweb/siowebDummyModule';
 
 $aModule = array(
     'id'          => 'siowebDummyModule',
+    // Die HTML-Formatierung ist nicht nötig, aber stylisch
     'title'       => '<b style="color: #005ba9">Sioweb</b> | Dummy Modul für v4.10+',
     'description' =>  array(
         'de'=>'Deutsche Beschreibung für dein Modul',
