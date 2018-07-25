@@ -24,13 +24,17 @@ $aModule = array(
     // Klasse überschrieben werden kann: https://oxidforge.org/en/list-of-not-overloadable-classes.html
     'extend'      => array(
         // Mehrsprachige Views in der Datenbank erzeugen
-        'oxlang' => $ModuleID.'/core/SiowebDummy_Lang',
+        'oxlang' => $ModuleID.'/core/SiowebDummyLang',
         // Ein Smarty-Plugin Registrieren (Achtung: Pfad muss in der Datei angepasst werden)
         /** @see https://github.com/vanilla-thunder/vt-smartyext */
-        'oxutilsview' => $ModuleID.'/core/SiowebDummy_Utilsview',
+        'oxutilsview' => $ModuleID.'/core/SiowebDummyUtilsview',
         // Einen eigenen Speicherpfad für hochgeladene Bilder erzeugen
         // (Achtung: Bilderpfad muss in der Datei angepasst werden)
-        'oxutilsfile' => $ModuleID.'/core/SiowebDummy_UtilsFile'
+        'oxutilsfile' => $ModuleID.'/core/SiowebDummyUtilsFile',
+        // GET-Request manipulieren, bevor die Controller geladen werden
+        // index.php?cl=sioweb_dummy_controller ruft dann nicht class sioweb_dummy_controller auf
+        // sondern class SiowebDummyController
+        'oxshopcontrol' => $ModuleID.'/core/SiowebDummyShopcontrol'
     ),
     // Bietet dein Modul eigene Klassen?
     // z.B. 
@@ -47,6 +51,9 @@ $aModule = array(
         'SiowebDummy' => $ModuleID.'/application/models/SiowebDummy.php',
         // Event-Handler
         'SiowebDummyEvents' => $ModuleID.'/events/SiowebDummyEvents.php',
+        // Eigener Controller index.php?cl=sioweb_dummy_controller
+        // Groß/Kleinschreibung wird in core/SiowebDummyShopcontrol angepasst
+        'SiowebDummyController' => $ModuleID.'/application/controllers/SiowebDummyController.php',
     ),
     // Bietet dein Modul Templates?
     // Überschreibt dein Modul Templates?
