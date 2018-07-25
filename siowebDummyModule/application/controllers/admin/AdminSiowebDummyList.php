@@ -1,7 +1,7 @@
 
 <?php
 
-class SiowebDummyList extends oxAdminList
+class AdminSiowebDummyList extends oxAdminList
 {
 
     protected $_sThisTemplate = 'sioweb_dummy_list.tpl';
