@@ -22,6 +22,7 @@ $aModule = array(
         // Mehrsprachige Views in der Datenbank erzeugen
         'oxlang' => $ModuleID.'/core/SiowebDummy_Lang',
         // Ein Smarty-Plugin Registrieren (Achtung: Pfad muss in der Datei angepasst werden)
+        /** @see https://github.com/vanilla-thunder/vt-smartyext */
         'oxutilsview' => $ModuleID.'/core/SiowebDummy_Utilsview',
         // Einen eigenen Speicherpfad für hochgeladene Bilder erzeugen
         // (Achting: Bilderpfad muss in der Datei angepasst werden)
