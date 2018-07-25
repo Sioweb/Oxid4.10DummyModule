@@ -1,2 +1,3 @@
 # Oxid4.10DummyModule
-Start-Modul für Oxid v4.10+
+
+Ein How2 Repository, in dem ich gewisse Techniken notiere. 
