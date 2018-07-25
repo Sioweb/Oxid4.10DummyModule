@@ -1,6 +1,6 @@
 <?php
 
-class SiowebDummyMain extends oxAdminDetails
+class AdminSiowebDummyMain extends oxAdminDetails
 {
 
     public function render()
