@@ -7,3 +7,8 @@ Ein How2 Repository, in dem ich gewisse Techniken notiere.
 ## Hilfreiche Links
 
 - [Oxid Datenbankschema](https://github.com/OXID-eSales/oxideshop_ce/blob/master/source/Setup/Sql/database_schema.sql)
+- [Klassen, die nicht überladen werden können](https://oxidforge.org/en/list-of-not-overloadable-classes.html)
+- [API/Core-Dokumentation(4.10.6)](https://docs.oxid-esales.com/sourcecodedocumentation/4.10.6/)
+- [Wo werden Bilder nach dem Upload hingeladen](https://docs.oxid-esales.com/sourcecodedocumentation/4.10.6/oxutilsfile_8php_source.html#l00006)
+- [Daten aus der Datenbank nutzen](https://oxidforge.org/de/datenbankdesign-kennen-lernen.html)
+- [Code-Beispiele aus dem Oxid Kochbuch](https://github.com/OXIDCookbook/Cookbook_GER1)
