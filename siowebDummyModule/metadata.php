@@ -35,12 +35,17 @@ $aModule = array(
     // - Smarty-Erweiterungen
     // - Models
     'files'      => array(
+        // Model
+        'SiowebDummy' => $ModuleID.'/application/models/SiowebDummy.php',
+        // Event-Handler
         'SiowebDummyEvents' => $ModuleID.'/events/SiowebDummyEvents.php',
     ),
     // Bietet dein Modul Templates?
     // Überschreibt dein Modul Templates?
     'templates' => array(
-        'sioweb_dummy.tpl' => $ModuleID.'/application/views/sioweb_dummy.tpl',
+        'sioweb_dummy.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy.tpl',
+        'sioweb_dumm_listy.tpl' => $ModuleID.'/application/views/admin/sioweb_dumm_listy.tpl',
+        'sioweb_dummy_main.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy_main.tpl',
     ),
     // Events sind vor allem geeignet, um die
     // Datenbank zu manipulieren, oder den Cache zu leeren
