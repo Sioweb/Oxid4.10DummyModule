@@ -25,7 +25,7 @@ $aModule = array(
         /** @see https://github.com/vanilla-thunder/vt-smartyext */
         'oxutilsview' => $ModuleID.'/core/SiowebDummy_Utilsview',
         // Einen eigenen Speicherpfad für hochgeladene Bilder erzeugen
-        // (Achting: Bilderpfad muss in der Datei angepasst werden)
+        // (Achtung: Bilderpfad muss in der Datei angepasst werden)
         'oxutilsfile' => $ModuleID.'/core/SiowebDummy_UtilsFile'
     ),
     // Bietet dein Modul eigene Klassen?
