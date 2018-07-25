@@ -1,6 +1,6 @@
 <?php
 
-class SiowebDummy extends oxAdminView
+class AdminSiowebDummy extends oxAdminView
 {
     protected $_sThisTemplate = 'sioweb_dummy.tpl';
 }
