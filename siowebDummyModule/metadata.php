@@ -49,9 +49,9 @@ $aModule = array(
     'templates' => array(
         // Um einen Backend-Menüpunkt hinzuzufügen, brauchst du 
         // die menu.xml im Root des Modules
-        'sioweb_dummy.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy.tpl',
-        'sioweb_dumm_listy.tpl' => $ModuleID.'/application/views/admin/sioweb_dumm_listy.tpl',
-        'sioweb_dummy_main.tpl' => $ModuleID.'/application/views/admin/sioweb_dummy_main.tpl',
+        'admin_sioweb_dummy.tpl' => $ModuleID.'/application/views/admin/admin_sioweb_dummy.tpl',
+        'admin_sioweb_dumm_listy.tpl' => $ModuleID.'/application/views/admin/admin_sioweb_dumm_listy.tpl',
+        'admin_sioweb_dummy_main.tpl' => $ModuleID.'/application/views/admin/admin_sioweb_dummy_main.tpl',
     ),
     // Events sind vor allem geeignet, um die
     // Datenbank zu manipulieren, oder den Cache zu leeren
