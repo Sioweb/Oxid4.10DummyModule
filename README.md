@@ -17,8 +17,8 @@ Ein How2 Repository, in dem ich gewisse Techniken notiere.
 
 ### Smarty-Block Prepend/Append
 
-  // Dieser Code wird an den Anfang des Blocks gesetzt
-  <h1>Überschrift am Anfang des Blocks</h1>
-  [{$smarty.block.parent}]
-  // Dieser Code wird an das Ende des Block gesetzt
-  <hr>
+    // Dieser Code wird an den Anfang des Blocks gesetzt
+    <h1>Überschrift am Anfang des Blocks</h1>
+    [{$smarty.block.parent}]
+    // Dieser Code wird an das Ende des Block gesetzt
+    <hr>
