@@ -12,3 +12,13 @@ Ein How2 Repository, in dem ich gewisse Techniken notiere.
 - [Wo werden Bilder nach dem Upload hingeladen](https://docs.oxid-esales.com/sourcecodedocumentation/4.10.6/oxutilsfile_8php_source.html#l00006)
 - [Daten aus der Datenbank nutzen](https://oxidforge.org/de/datenbankdesign-kennen-lernen.html)
 - [Code-Beispiele aus dem Oxid Kochbuch](https://github.com/OXIDCookbook/Cookbook_GER1)
+
+## Notes
+
+### Smarty-Block Prepend/Append
+
+  // Dieser Code wird an den Anfang des Blocks gesetzt
+  <h1>Überschrift am Anfang des Blocks</h1>
+  [{$smarty.block.parent}]
+  // Dieser Code wird an das Ende des Block gesetzt
+  <hr>
